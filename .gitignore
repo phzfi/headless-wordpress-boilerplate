@@ -22,3 +22,6 @@ vendor/*
 # NPM
 node_modules/*
 !vendor/.gitkeep
+
+# YARN
+yarn.lock

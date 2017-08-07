@@ -1,23 +1,14 @@
-/*!
- * Theme Name:        Theme Boilerplate
- * Theme URI:         https://github.com/bungeshea/theme-boilerplate
- * Description:       A starter theme I use when creating a custom theme for a site.
- *
- * Support URI:       https://github.com/bungeshea/theme-boilerplate/issues
- * Documentation URI: https://github.com/bungeshea/theme-boilerplate/wiki
- *
- * Author:            Shea Bunge
- * Author URI:        http://bungeshea.com
- *
- * License:           MIT
- * License URI:       http://opensource.org/licenses/MIT
- *
- * Version:           0.1
- * Text Domain:       theme-boilerplate
- * Domain Path:       /languages
- * Tags:
- */
+// Try thinking CSS and HTML only as components and elements.
+// If something becomes complicated, try rethinking and Googling.
 
-@import 'normalize';
-@import 'base';
-@import 'typography';
+// Core
+@import './core/colors';
+
+// Components
+@import './components/button';
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}

@@ -12,5 +12,5 @@ let mix = require('laravel-mix');
  */
 
 // Default theme
-mix.js('resources/assets/js/app.js', 'public/js')
-  .sass('resources/assets/sass/app.scss', 'public/css');
+mix.js('web/app/themes/default/js/app.js', 'web/app/themes/default/app.js')
+  .sass('web/app/themes/default/scss/style.scss', 'web/app/themes/default/style.css');

@@ -1,0 +1,28 @@
+.button {
+  padding: 15px;
+  background-color: #922;
+  color: #E00;
+}
+
+.button:hover {
+  background-color: #922;
+  color: #922;
+}
+
+.button.primary {
+  background-color: #00A;
+  color: #00F;
+}
+
+.button.primary:hover {
+  background-color: #00A;
+  color: #00A;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+

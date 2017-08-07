@@ -1,0 +1,21 @@
+.button {
+  padding: 15px;
+
+  background-color: $color_dark_red;
+  color: $color_red;
+
+  &:hover {
+    background-color: $color_dark_red;
+    color: $color_dark_red;
+  }
+
+  &.primary {
+    background-color: $color_dark_blue;
+    color: $color_blue;
+
+    &:hover {
+      background-color: $color_dark_blue;
+      color: $color_dark_blue;
+    }
+  }
+}
