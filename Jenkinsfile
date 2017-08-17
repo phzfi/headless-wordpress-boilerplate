@@ -1,19 +1,13 @@
 node {
     checkout scm
 
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
+    stage('Build') {
+        echo 'Building..'
 
-                sh 'yarn install'
-                sh 'composer install'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
+        sh 'yarn install'
+        sh 'composer install'
+    }
+    stage('Deploy') {
+        echo 'Deploying....'
     }
 }
