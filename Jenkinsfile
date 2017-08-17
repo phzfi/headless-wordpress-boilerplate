@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                yarn install
             }
         }
         stage('Deploy') {
