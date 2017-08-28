@@ -5,12 +5,15 @@
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "license": "./node_modules/.bin/license-to-fail ./config/license-checker-config.js"
   },
   "devDependencies": {
-    "laravel-mix": "^1.0",
+    "bulma": "^0.5.0",
     "cross-env": "^3.2.3",
-    "vue": "^2.1.10",
-    "bulma": "^0.5.0"
+    "laravel-mix": "^1.0",
+    "license-checker": "^13.1.0",
+    "license-to-fail": "^2.2.0",
+    "vue": "^2.1.10"
   }
 }
